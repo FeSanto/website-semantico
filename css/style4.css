@@ -1,0 +1,93 @@
+/*  GERAL  */
+*{
+	box-sizing: border-box; 
+}
+
+body{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; /*definimos a fonte*/
+	margin: 0;
+}
+
+
+/*  LAYOUT  */
+.col-1-de-3{
+	display: inline-block;
+	width: 33%;
+}
+
+.col-2-de-3{
+	display: inline-block;
+	width: 66%;
+}
+
+
+/*  HEADER  */
+
+/*header > h3 {} -- o símbolo > indica que vamos tratar o h3 filho direto da header*/
+
+.header__titulo{
+	text-transform: uppercase; /*transforma em letras maiúsculas*/
+	color: #9013FE; /*cor*/
+	font-weight: lighter;  /*largura da letra*/
+	font-size: 16px;  /*tamanho da letra*/
+	text-align: center;  /*alinhamento do texto*/
+}
+
+
+/*  SECTION  */
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*  ASIDE  */
+
+.author{
+	text-align: center; /*alinha o texto no centro*/
+	border: 1px solid #CCCCCC; /*configura uma borda de 1px, sólida e de cor cinza*/
+	padding: 20px; 
+	vertical-align: top;
+	height: 470px;
+}
+
+.author__nome,
+.author__ocupacao{
+	margin: 0;
+}
+
+.author_nome{
+	margin-top: 10px;
+}
+
+
+/*  ARTICLE  */
+
+.article{
+	color: #4A4A4A;
+	margin-left: 30px;
+}
+
+.article__titulo{
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.article p{
+	font-size: 24px;
+}
+
+
+/*  FOOTER  */
+
+footer{
+	background-color: #9013FE;
+	text-align: center;
+	color: #ffffff;
+}
+
+.rodape p{
+	margin: 0;
+	padding: 10px 0;
+}
