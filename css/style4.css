@@ -8,22 +8,56 @@ body{
 	margin: 0;
 }
 
+/*  NAVEGAÇÃO  */
+
+.topbar{
+	position: fixed; /*fixa o topbar*/
+	width: 100%; /*ocupa 100% da área superior*/
+	padding: 25px 95px; 
+	top: 0; 
+	border-bottom: 1px solid rgba(74, 74, 74, 0.322);
+}
+
+a{
+	text-decoration: none;
+	color: #4A4A4A;
+	text-transform: uppercase;
+}
+
+.imagem{
+	display: inline;
+}
+
+.menu{
+	display: inline;
+}
+
+.menu__item{
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	margin: 30px;
+}
 
 /*  LAYOUT  */
 .col-1-de-3{
 	display: inline-block;
-	width: 33%;
+	width: 25%;
 }
 
 .col-2-de-3{
 	display: inline-block;
-	width: 66%;
+	width: 70%;
 }
 
 
 /*  HEADER  */
 
 /*header > h3 {} -- o símbolo > indica que vamos tratar o h3 filho direto da header*/
+
+header{
+	padding-top: 70px;
+}
 
 .header__titulo{
 	text-transform: uppercase; /*transforma em letras maiúsculas*/
