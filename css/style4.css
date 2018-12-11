@@ -27,6 +27,7 @@ a{
 
 .menu{
 	display: inline-block;
+	margin-left: 502px;
 }
 
 .menu__item{
@@ -75,7 +76,7 @@ header{
 	border: 1px solid #CCCCCC; /*configura uma borda de 1px, sólida e de cor cinza*/
 	padding: 20px; 
 	vertical-align: top;
-	height: 505px;
+	height: 517px;
 }
 
 .author__nome,
@@ -91,17 +92,18 @@ header{
 /*  ARTICLE  */
 
 .article{
-	color: #4A4A4A;
-	margin-left: 5%;
+	padding: 0 20px;
 }
 
 .article__titulo{
 	font-size: 36px;
+	font-weight: bolder;
 	margin-top: 0;
 }
 
 .article p{
 	font-size: 24px;
+	padding-bottom: 30px;
 }
 
 .article img{
@@ -111,9 +113,9 @@ header{
 /*  FOOTER  */
 
 footer{
-	background-color: #9013FE;
+	/* background-color: #9013FE; */
 	text-align: center;
-	color: #ffffff;
+	color: #9013FE;
 }
 
 .rodape p{
