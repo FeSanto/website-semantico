@@ -1,4 +1,2 @@
-# website-semantico
-Exercício 4
-
-Website MulheresEmTech desenvolvido pela Rafaella Volkmann.
+# Project4_Reprograma_MulheresEmTech
+Desenvolver uma landing page utilizando um navbar com imagem e menu em lista, um aside com foto e descrição e um main com título, texto e imagem.
